@@ -1,0 +1,618 @@
+.profile_header .i_master:hover span {
+    border: silver 1px dotted;
+    padding: 5px 20px 5px 5px;
+    display: block;
+    z-index: 100;
+    left: 0;
+    margin: 10px;
+    width: 250px;
+    position: absolute;
+    top: 10px;
+    text-decoration: none;
+}
+
+.subpage-content {
+    padding: 0 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p_picture {
+    display: block;
+    width: 125px;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 15px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.p_picture .f_arm,
+.p_picture .f_cloth,
+.p_picture .f_effect,
+.p_picture .f_face,
+.p_picture .f_glass,
+.p_picture .f_hair,
+.p_picture .f_head,
+.p_picture .f_nick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.p_picture .f_arm img,
+.p_picture .f_cloth img,
+.p_picture .f_effect img,
+.p_picture .f_face img,
+.p_picture .f_glass img,
+.p_picture .f_hair img,
+.p_picture .f_head img,
+.p_picture .f_nick p {
+    height: 165px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.p_picture .f_head {
+    z-index: 505;
+}
+
+.p_picture .f_hair {
+    z-index: 504;
+}
+
+.p_picture .f_glass {
+    z-index: 505;
+}
+
+.p_picture .f_effect {
+    z-index: 504;
+}
+
+.p_picture .f_face {
+    z-index: 503;
+}
+
+.p_picture .f_cloth {
+    z-index: 504;
+}
+
+.p_picture .f_arm {
+    z-index: 502;
+}
+
+.p_picture .f_nick {
+    z-index: 502;
+}
+
+.player_profile {
+    display: block;
+    margin: 0 auto;
+    padding-right: 567px;
+    padding-top: 26px;
+}
+
+.profile_header {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.profile_header .p_border {
+    width: 192;
+    height: 220;
+    position: relative;
+    float: left;
+    background-size: cover;
+}
+
+.profile_header .p_circlelight {
+    width: 122px;
+    height: 122px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform-origin: 50% 50%;
+    animation: 9s rotateRight infinite linear;
+    top: 34px;
+    left: 24px;
+}
+
+.profile_header .p_circlelightb {
+    width: 130px;
+    height: 132px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform-origin: 50% 50%;
+    animation: 9s rotateRight infinite linear;
+    top: 30px;
+    left: 20px;
+}
+
+.profile_header .p_circlelightc {
+    width: 136px;
+    height: 136px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform-origin: 50% 50%;
+    animation: 9s rotateRight infinite linear;
+    top: 30px;
+    left: -15px;
+}
+
+.profile_header .p_circlelightc2 {
+    width: 101px;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform-origin: 50% 50%;
+    animation: 9s rotateLeft infinite linear;
+    top: 48px;
+    left: 0px;
+}
+
+.profile_header .p_sinplelight1 {
+    width: 82px;
+    height: 74px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(../game/sinplelight/SinpleLight_1/0.png);
+    animation-name: changeFrame_sl1;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    z-index: 5;
+    top: 110px;
+    left: 40px;
+}
+
+.profile_header .p_sinplelight2 {
+    width: 98px;
+    height: 73px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(../game/sinplelight/SinpleLight_2/0.png);
+    animation-name: changeFrame_sl2;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    z-index: 5;
+    top: 110px;
+    left: 32px;
+}
+
+.profile_header .p_sinplelight3 {
+    width: 98px;
+    height: 73px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(../game/sinplelight/SinpleLight_3/0.png);
+    animation-name: changeFrame_sl3;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    z-index: 5;
+    top: 110px;
+    left: 32px;
+}
+
+@keyframes changeFrame_sl3 {
+    0% {
+        background-image: url(../game/sinplelight/SinpleLight_3/0.png);
+    }
+    3% {
+        background-image: url(../game/sinplelight/SinpleLight_3/0.png);
+    }
+    6% {
+        background-image: url(../game/sinplelight/SinpleLight_3/1.png);
+    }
+    9% {
+        background-image: url(../game/sinplelight/SinpleLight_3/2.png);
+    }
+    12% {
+        background-image: url(../game/sinplelight/SinpleLight_3/3.png);
+    }
+    15% {
+        background-image: url(../game/sinplelight/SinpleLight_3/4.png);
+    }
+    18% {
+        background-image: url(../game/sinplelight/SinpleLight_3/5.png);
+    }
+    21% {
+        background-image: url(../game/sinplelight/SinpleLight_3/6.png);
+    }
+    24% {
+        background-image: url(../game/sinplelight/SinpleLight_3/7.png);
+    }
+    27% {
+        background-image: url(../game/sinplelight/SinpleLight_3/8.png);
+    }
+    30% {
+        background-image: url(../game/sinplelight/SinpleLight_3/9.png);
+    }
+    33% {
+        background-image: url(../game/sinplelight/SinpleLight_3/10.png);
+    }
+    36% {
+        background-image: url(../game/sinplelight/SinpleLight_3/11.png);
+    }
+    39% {
+        background-image: url(../game/sinplelight/SinpleLight_3/12.png);
+    }
+    42% {
+        background-image: url(../game/sinplelight/SinpleLight_3/13.png);
+    }
+    45% {
+        background-image: url(../game/sinplelight/SinpleLight_3/14.png);
+    }
+    48% {
+        background-image: url(../game/sinplelight/SinpleLight_3/15.png);
+    }
+    51% {
+        background-image: url(../game/sinplelight/SinpleLight_3/16.png);
+    }
+    54% {
+        background-image: url(../game/sinplelight/SinpleLight_3/17.png);
+    }
+    57% {
+        background-image: url(../game/sinplelight/SinpleLight_3/18.png);
+    }
+    60% {
+        background-image: url(../game/sinplelight/SinpleLight_3/19.png);
+    }
+    63% {
+        background-image: url(../game/sinplelight/SinpleLight_3/20.png);
+    }
+    66% {
+        background-image: url(../game/sinplelight/SinpleLight_3/21.png);
+    }
+    69% {
+        background-image: url(../game/sinplelight/SinpleLight_3/22.png);
+    }
+    72% {
+        background-image: url(../game/sinplelight/SinpleLight_3/23.png);
+    }
+    75% {
+        background-image: url(../game/sinplelight/SinpleLight_3/24.png);
+    }
+    78% {
+        background-image: url(../game/sinplelight/SinpleLight_3/25.png);
+    }
+    81% {
+        background-image: url(../game/sinplelight/SinpleLight_3/26.png);
+    }
+    84% {
+        background-image: url(../game/sinplelight/SinpleLight_3/27.png);
+    }
+    87% {
+        background-image: url(../game/sinplelight/SinpleLight_3/28.png);
+    }
+    90% {
+        background-image: url(../game/sinplelight/SinpleLight_3/29.png);
+    }
+    93% {
+        background-image: url(../game/sinplelight/SinpleLight_3/30.png);
+    }
+    96% {
+        background-image: url(../game/sinplelight/SinpleLight_3/30.png);
+    }
+    99% {
+        background-image: url(../game/sinplelight/SinpleLight_3/30.png);
+    }
+}
+
+@keyframes changeFrame_sl2 {
+    0% {
+        background-image: url(../game/sinplelight/SinpleLight_2/0.png);
+    }
+    3% {
+        background-image: url(../game/sinplelight/SinpleLight_2/0.png);
+    }
+    6% {
+        background-image: url(../game/sinplelight/SinpleLight_2/1.png);
+    }
+    9% {
+        background-image: url(../game/sinplelight/SinpleLight_2/2.png);
+    }
+    12% {
+        background-image: url(../game/sinplelight/SinpleLight_2/3.png);
+    }
+    15% {
+        background-image: url(../game/sinplelight/SinpleLight_2/4.png);
+    }
+    18% {
+        background-image: url(../game/sinplelight/SinpleLight_2/5.png);
+    }
+    21% {
+        background-image: url(../game/sinplelight/SinpleLight_2/6.png);
+    }
+    24% {
+        background-image: url(../game/sinplelight/SinpleLight_2/7.png);
+    }
+    27% {
+        background-image: url(../game/sinplelight/SinpleLight_2/8.png);
+    }
+    30% {
+        background-image: url(../game/sinplelight/SinpleLight_2/9.png);
+    }
+    33% {
+        background-image: url(../game/sinplelight/SinpleLight_2/10.png);
+    }
+    36% {
+        background-image: url(../game/sinplelight/SinpleLight_2/11.png);
+    }
+    39% {
+        background-image: url(../game/sinplelight/SinpleLight_2/12.png);
+    }
+    42% {
+        background-image: url(../game/sinplelight/SinpleLight_2/13.png);
+    }
+    45% {
+        background-image: url(../game/sinplelight/SinpleLight_2/14.png);
+    }
+    48% {
+        background-image: url(../game/sinplelight/SinpleLight_2/15.png);
+    }
+    51% {
+        background-image: url(../game/sinplelight/SinpleLight_2/16.png);
+    }
+    54% {
+        background-image: url(../game/sinplelight/SinpleLight_2/17.png);
+    }
+    57% {
+        background-image: url(../game/sinplelight/SinpleLight_2/18.png);
+    }
+    60% {
+        background-image: url(../game/sinplelight/SinpleLight_2/19.png);
+    }
+    63% {
+        background-image: url(../game/sinplelight/SinpleLight_2/20.png);
+    }
+    66% {
+        background-image: url(../game/sinplelight/SinpleLight_2/21.png);
+    }
+    69% {
+        background-image: url(../game/sinplelight/SinpleLight_2/22.png);
+    }
+    72% {
+        background-image: url(../game/sinplelight/SinpleLight_2/23.png);
+    }
+    75% {
+        background-image: url(../game/sinplelight/SinpleLight_2/24.png);
+    }
+    78% {
+        background-image: url(../game/sinplelight/SinpleLight_2/25.png);
+    }
+    81% {
+        background-image: url(../game/sinplelight/SinpleLight_2/26.png);
+    }
+    84% {
+        background-image: url(../game/sinplelight/SinpleLight_2/27.png);
+    }
+    87% {
+        background-image: url(../game/sinplelight/SinpleLight_2/28.png);
+    }
+    90% {
+        background-image: url(../game/sinplelight/SinpleLight_2/29.png);
+    }
+    93% {
+        background-image: url(../game/sinplelight/SinpleLight_2/30.png);
+    }
+    96% {
+        background-image: url(../game/sinplelight/SinpleLight_2/30.png);
+    }
+    99% {
+        background-image: url(../game/sinplelight/SinpleLight_2/30.png);
+    }
+}
+
+@keyframes changeFrame_sl1 {
+    0% {
+        background-image: url(../game/sinplelight/SinpleLight_1/0.png);
+    }
+    3% {
+        background-image: url(../game/sinplelight/SinpleLight_1/0.png);
+    }
+    6% {
+        background-image: url(../game/sinplelight/SinpleLight_1/1.png);
+    }
+    9% {
+        background-image: url(../game/sinplelight/SinpleLight_1/2.png);
+    }
+    12% {
+        background-image: url(../game/sinplelight/SinpleLight_1/3.png);
+    }
+    15% {
+        background-image: url(../game/sinplelight/SinpleLight_1/4.png);
+    }
+    18% {
+        background-image: url(../game/sinplelight/SinpleLight_1/5.png);
+    }
+    21% {
+        background-image: url(../game/sinplelight/SinpleLight_1/7.png);
+    }
+    24% {
+        background-image: url(../game/sinplelight/SinpleLight_1/8.png);
+    }
+    27% {
+        background-image: url(../game/sinplelight/SinpleLight_1/9.png);
+    }
+    30% {
+        background-image: url(../game/sinplelight/SinpleLight_1/10.png);
+    }
+    33% {
+        background-image: url(../game/sinplelight/SinpleLight_1/11.png);
+    }
+    36% {
+        background-image: url(../game/sinplelight/SinpleLight_1/12.png);
+    }
+    39% {
+        background-image: url(../game/sinplelight/SinpleLight_1/14.png);
+    }
+    42% {
+        background-image: url(../game/sinplelight/SinpleLight_1/15.png);
+    }
+    45% {
+        background-image: url(../game/sinplelight/SinpleLight_1/16.png);
+    }
+    48% {
+        background-image: url(../game/sinplelight/SinpleLight_1/17.png);
+    }
+    51% {
+        background-image: url(../game/sinplelight/SinpleLight_1/18.png);
+    }
+    54% {
+        background-image: url(../game/sinplelight/SinpleLight_1/19.png);
+    }
+    57% {
+        background-image: url(../game/sinplelight/SinpleLight_1/21.png);
+    }
+    60% {
+        background-image: url(../game/sinplelight/SinpleLight_1/22.png);
+    }
+    63% {
+        background-image: url(../game/sinplelight/SinpleLight_1/23.png);
+    }
+    66% {
+        background-image: url(../game/sinplelight/SinpleLight_1/24.png);
+    }
+    69% {
+        background-image: url(../game/sinplelight/SinpleLight_1/25.png);
+    }
+    72% {
+        background-image: url(../game/sinplelight/SinpleLight_1/26.png);
+    }
+    75% {
+        background-image: url(../game/sinplelight/SinpleLight_1/28.png);
+    }
+    78% {
+        background-image: url(../game/sinplelight/SinpleLight_1/29.png);
+    }
+    81% {
+        background-image: url(../game/sinplelight/SinpleLight_1/30.png);
+    }
+    84% {
+        background-image: url(../game/sinplelight/SinpleLight_1/31.png);
+    }
+    87% {
+        background-image: url(../game/sinplelight/SinpleLight_1/32.png);
+    }
+    90% {
+        background-image: url(../game/sinplelight/SinpleLight_1/33.png);
+    }
+    93% {
+        background-image: url(../game/sinplelight/SinpleLight_1/35.png);
+    }
+    96% {
+        background-image: url(../game/sinplelight/SinpleLight_1/35.png);
+    }
+    99% {
+        background-image: url(../game/sinplelight/SinpleLight_1/35.png);
+    }
+}
+
+@keyframes rotateRight {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateLeft {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.profile_header .p_info {
+    float: right;
+    width: 420px;
+    margin-right: 30px;
+    height: 185px;
+    margin-top: 5px;
+}
+
+.profile_header .i_vip {
+    position: absolute;
+    top: 65px;
+    right: -15px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 999;
+    background-size: cover;
+}
+
+.profile_header .i_grade {
+    position: absolute;
+    top: 27px;
+    right: -15px;
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 999;
+    background-size: cover;
+}
+
+.profile_header .i_married {
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 999;
+    background-size: cover;
+}
+
+.header_logo {
+    position: absolute;
+    left: 324px;
+    top: -46px;
+    z-index: 6;
+}
+
+.profile_header .i_master {
+    position: absolute;
+    height: 30px;
+    width: 36px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    font-weight: 700;
+    z-index: 999;
+    background-repeat: no-repeat;
+}
+
+.showmoreranking {
+    float: right;
+    font-size: 30px;
+    width: 25px;
+    color: #770d19;
+    background: #f1e7c1;
+    background-image: url(/assets/images/showmoreicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #770d19;
+    height: 24px;
+    margin-right: 35px;
+}
+
+.Err-Box {
+    background-color: #000;
+}

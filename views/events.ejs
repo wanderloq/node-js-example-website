@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        <%=gamename%> -
+            <%=site.website['dialog_3']%>
+    </title>
+    <meta name="description" content="DDTank sevimli bir çok oyunculu çevrimiçi rahat tarayıcı oyunudur. İndirmeye gerek yoktur, sadece giriş yapın ve oynayın. Oyunda farklı oyuncularla rekabet edebilirsiniz. Basit klavye kullanımı, etkileşimi ve PvP'yi kolaylaştırır, böylece oyuncular heyecan ve eğlencenin tadını çıkarır. Tank, sevimli grafikleri, sevimli sahneleri ve çeşitli moda kıyafetleriyle bayan oyuncuları en çok cezbeder. Üstün özel efektler, yetenekli yarışma ve ilginç sahne sistemi için erkek oyuncular arasında da popülerlik kazanıyor."
+    />
+    <link rel="shortcut icon" href="../images/icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <link href="../css/topbarc619.css?v=1.0" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/publicc619.css?v=1.0" />
+    <link id="wide-css" rel="stylesheet" href="../css/public-1200.css" media="screen and (min-width:1250px)" />
+    <link href="../css/new_pop1606153cc5.css?v=1.6" rel="stylesheet" type="text/css" />
+    <link href="../css/pop3cc5.css?v=1.6" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../css/popupbec1.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVTTKMQ1EY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TVTTKMQ1EY');
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg">
+            <ul class="bg__img-list">
+                <li class="bg__img bg__img<%=thema%>--01"></li>
+                <li class="bg__img bg__img<%=thema%>--02"></li>
+                <li class="bg__img bg__img<%=thema%>--03"></li>
+                <li class="bg__img bg__img<%=thema%>--04"></li>
+                <li class="bg__img bg__img<%=thema%>--05"></li>
+                <li class="bg__img bg__img<%=thema%>--06"></li>
+            </ul>
+            <div class="bg__flash">
+                <i id="bg__flash"></i>
+            </div>
+        </div>
+        <div class="content">
+            <div class="center">
+                <div class="header">
+                    <a href="/" class="logo">
+                        <%=gamename%>
+                    </a>
+                    <h1 class="slogan"></h1>
+                    <div class="nav" data-cid="44057">
+                        <ul class="nav__list">
+                            <li class="nav__item nav__item--1">
+                                <a href="/" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['Home_Page']%>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item--2">
+                                <a href="/pay" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['Payout']%>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item--3">
+                                <a href="/guide" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['Game_Guide']%>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item--4">
+                                <a href="#" target="_blank" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['Facebook']%>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item--5">
+                                <a href="https://discord.gg/bombom" target="_blank" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['Discord']%>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav__item nav__item--6">
+                                <a href="#" target="_blank" class="nav__link tj">
+                                    <span class="nav__txt nav__txt--top">
+                                        <%=site.website['YouTube']%>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main">
+
+
+                    <div class="main-side">
+                        <div class="start">
+                            <a class="start__btn tj" data-toggle="modal" data-target="#modal-login">
+                                <%=site.website['Game_Start']%>
+                            </a>
+                            <i class="flash-start" id="flash-start"></i>
+                        </div>
+                        <div class="login">
+                            <p class="loging" style="display: block">
+                                <span class="loging__txt">
+                                    <%=site.website['dialog_1']%>
+                                </span>
+                                <a class="loging__link loging__link--login" data-target="#modal-register" data-toggle="modal">
+                                    <%=site.website['dialog_5']%>
+                                </a>
+                            </p>
+                        </div>
+                        <div class="main-link">
+                            <a target="_blank" class="main-link__item main-link__item--1 tj">
+                                <%=site.website['dialog_2']%>
+                            </a>
+                        </div>
+                        <div class="quick-link" data-cid=44054>
+                            <button class="quick-link__item quick-link__item--1 tj quick-rank" name="1">
+                                <%=site.website['Fighting_Strength']%>
+                            </button>
+                            <button class="quick-link__item quick-link__item--2 tj quick-rank" name="2">
+                                <%=site.website['League']%>
+                            </button>
+                            <button class="quick-link__item quick-link__item--3 tj quick-rank" name="3">
+                                <%=site.website['Free_War']%>
+                            </button>
+                            <button class="quick-link__item quick-link__item--4 tj quick-rank" name="4">
+                                <%=site.website['Level']%>
+                            </button>
+                            <button class="quick-link__item quick-link__item--5 tj quick-rank" name="5">
+                                <%=site.website['Online_Minutes']%>
+                            </button>
+                            <button class="quick-link__item quick-link__item--6 tj quick-rank" name="6">
+                                <%=site.website['Wealth']%>
+                            </button>
+                        </div>
+                        <div class="side-show" data-cid=44052>
+                            <table id="rank">
+                                <thead id="rank-head">
+                                    <tr>
+                                        <th>#</th>
+                                        <th>NickName</th>
+                                        <th>
+                                            <%=site.website['Fighting_Strength']%>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody id="rank-body">
+
+                                </tbody>
+
+                            </table>
+                        </div>
+
+                    </div>
+
+
+                    <div class="main-content">
+
+                        <div class="top">
+                            <h2 class="top-title">
+                                <%=site.website['Events_List']%>
+                            </h2>
+                            <ul class="breadcrumb">
+                                <li class="breadcrumb__item breadcrumb__item--phrase">
+                                    <%=site.website['Home_Page']%>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="bottom-338">
+                            <div class="list info info--sub">
+                                <ul class="info__list">
+
+
+
+
+                                    <% blog.forEach(function(result){ if(result.Type == 1) {%>
+
+                                        <li class="info__item"><span class="info__date">[<%=moment(result.Date).format('MM')%>/
+                                                                <%=moment(result.Date).format('DD')%>]
+                                                        </span><span class="info__type">[<%=site.website['Update']%>]</span>
+                                            <a class="info__link" href="/blog/updates/<%=result.Url%>" hidefocus="true">
+                                                <%=result.Title%>
+                                            </a>
+                                        </li>
+                                        <% }}); %>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div id="modal-login" class="login-box modal">
+        <div class="modal-hd">
+            <h3 class="modal-title">Giriş</h3>
+            <a class="modal-close" href="javascript:void(0)">×</a>
+        </div>
+        <div class="modal-bd fn-clearfix" style="height: 300px;">
+            <div class="form-box">
+                <p class="input-prompt"></p>
+                <div class="form-input box-username">
+                    <label class="icon icon-user">Kullanıcı Adı</label>
+                    <input type="text" placeholder="Kullanıcı adınızı giriniz" class="for_login" id="l-username">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">Şifre</label>
+                    <input type="password" placeholder="Şifrenizi giriniz" id="l-password">
+                </div>
+                <div class="form-input box-verification">
+                    <label class="icon icon-security">Şifre</label>
+                    <input type="text" value="" id="l-captcha" class="code_val" placeholder="Güvenlik kodunu giriniz" />
+                    <img style="cursor:pointer;" id="code_img" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAeCAMAAABT0xOcAAAAGFBMVEX0dyH+UAAAAAAAAAAAAAAAAAAAAAAAAAAmNRFBAAAACHRSTlNk/wAAAAAAAHFwttAAAAjzSURBVHjaAegIF/cAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAABAQAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAQEBAQAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAQEBAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlWgF7AP1oEQAAAABJRU5ErkJggg=="
+                    />
+                </div>
+                <p style="display: none;color: hsl(19deg 100% 50%);" id="l-error"></p>
+                <button class="login-submit" id="l-button">Giriş Yapın</button>
+                <p class="login-other-way">veya</p>
+
+                <p class="forgot-block"><a data-target="#modal-find-password" data-toggle="modal" href="javascript:void(0)">Şifremi Unuttum</a></p>
+                <p class="help-block"><a data-target="#modal-register" data-toggle="modal" href="javascript:void(0)">Hesap
+                        Oluştur</a></p>
+            </div>
+        </div>
+        <div class="modal-ft2"></div>
+    </div>
+
+    <div id="modal-register" class="login-box modal">
+        <div class="modal-hd">
+            <h3 class="modal-title">Hesap Oluştur</h3>
+            <a class="modal-close" href="javascript:void(0)">×</a>
+        </div>
+        <div class="modal-bd fn-clearfix" style="height: 480px;">
+            <div class="form-box">
+                <p class="input-prompt"></p>
+                <div class="form-input box-username">
+                    <label class="icon icon-user">Kullanıcı Adı</label>
+                    <input type="text" placeholder="Kullanıcı adınızı giriniz" class="for_login" id="r-username">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">Şifre</label>
+                    <input type="password" placeholder="Şifrenizi giriniz" id="r-password">
+                </div>
+                <div class="form-input box-username">
+                    <label class="icon icon-user">NickName</label>
+                    <input type="text" placeholder="Nickname giriniz" class="for_login" id="r-nickname">
+                </div>
+                <div class="form-input box-mail">
+                    <label class="icon icon-email">Email</label>
+                    <input type="email" placeholder="Email giriniz" class="for_login" id="r-email">
+                </div>
+                <div class="form-input box-username">
+                    <label class="icon icon-security">Cinsiyet</label>
+                    <select id="r-sex" class="for_login">
+                        <option value="1">♂ Erkek</option>
+                        <option value="0">♀ Kız</option>
+                    </select>
+                </div>
+                <div class="form-input box-verification">
+                    <label class="icon icon-security">Güvenlik Kodu</label>
+                    <input type="text" value="" id="r-captcha" class="code_val" placeholder="Güvenlik kodunu giriniz" />
+                    <img style="cursor:pointer;" id="code_img" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAeCAMAAABT0xOcAAAAGFBMVEX0dyH+UAAAAAAAAAAAAAAAAAAAAAAAAAAmNRFBAAAACHRSTlNk/wAAAAAAAHFwttAAAAjzSURBVHjaAegIF/cAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAABAQAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAQEBAQAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAQEBAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlWgF7AP1oEQAAAABJRU5ErkJggg=="
+                    />
+                </div>
+                <p style="display: none;color: hsl(19deg 100% 50%);" id="r-error"></p>
+                <button class="login-submit" id="r-button">Oluştur</button>
+                <p class="login-other-way">veya</p>
+
+                <p class="" style="margin-top:10px;"><a data-target="#modal-login" data-toggle="modal" href="javascript:void(0)" style="font-size:12px;">Oyuna Gir</a></p>
+            </div>
+        </div>
+        <div class="modal-ft2"></div>
+    </div>
+    <div id="modal-find-password" class="login-box modal">
+        <div class="modal-hd">
+            <h3 class="modal-title">Şifremi Unuttum</h3>
+            <a class="modal-close" href="javascript:void(0)">×</a>
+        </div>
+        <div class="modal-bd fn-clearfix" style="height: 350px;">
+            <div class="form-box">
+                <p class="input-prompt"></p>
+                <div class="form-input box-username">
+                    <label class="icon icon-user">Kullanıcı Adı</label>
+                    <input type="text" placeholder="Kullanıcı adınızı giriniz" class="for_login" id="r-username">
+                </div>
+                <div class="form-input box-email">
+                    <label class="icon icon-email">E-Mail</label>
+                    <input type="text" placeholder="E-Mail Giriniz" id="e-mail">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">Şifre</label>
+                    <input type="password" placeholder="Şifrenizi Girin giriniz" class="for_login" id="password">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">Tekrar Şifre</label>
+                    <input type="password" placeholder="Tekrar Şifrenizi Girin giriniz" class="for_login" id="r-password">
+                </div>
+                <p style="display: none;color: hsl(19deg 100% 50%);" id="r-error"></p>
+                <button class="login-submit" id="r-button">Değiştir</button>
+                <p class="login-other-way">veya</p>
+
+                <p class="" style="margin-top:10px;"><a data-target="#modal-login" data-toggle="modal" href="javascript:void(0)" style="font-size:12px;">Oyuna Gir</a></p>
+            </div>
+        </div>
+        <div class="modal-ft2"></div>
+    </div>
+    <div id="modal-changepass" class="login-box modal">
+        <div class="modal-hd">
+            <h3 class="modal-title">
+                <%=site.website['Change_Password']%>
+            </h3>
+            <a class="modal-close" href="javascript:void(0)">×</a>
+        </div>
+        <div class="modal-bd fn-clearfix" style="height: 300px;">
+            <div class="form-box">
+                <p class="input-prompt"></p>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">
+                        <%=site.website['Your_Current_Password']%>
+                    </label>
+                    <input type="password" placeholder="Şuanki Şifrenizi giriniz" id="old-password">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">
+                        <%=site.website['Your_New_Password']%>
+                    </label>
+                    <input type="password" placeholder="Yeni Şifrenizi giriniz" id="new-password">
+                </div>
+                <div class="form-input box-password">
+                    <label class="icon icon-password">
+                        <%=site.website['Your_New_Password']%>
+                    </label>
+                    <input type="password" placeholder="Yeni Şifrenizi tekrar giriniz" id="rnew-password">
+                </div>
+                <div class="form-input box-verification">
+                    <label class="icon icon-security">Şifre</label>
+                    <input type="text" value="" id="c-captcha" class="code_val" placeholder="Güvenlik kodunu giriniz" />
+                    <img style="cursor:pointer;" id="code_img" src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAAAeCAMAAABT0xOcAAAAGFBMVEX0dyH+UAAAAAAAAAAAAAAAAAAAAAAAAAAmNRFBAAAACHRSTlNk/wAAAAAAAHFwttAAAAjzSURBVHjaAegIF/cAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAABAQAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAQEBAQAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAQEBAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABlWgF7AP1oEQAAAABJRU5ErkJggg=="
+                    />
+                </div>
+                <p style="display: none;color: hsl(19deg 100% 50%);" id="c-error"></p>
+                <button class="login-submit" id="c-button">GÜNCELLE</button>
+            </div>
+        </div>
+        <div class="modal-ft2"></div>
+    </div>
+
+    <div class="footer2016">
+        <div class="footer2016__cnt">
+            <a class="footer2016__logo" href="/">
+                <%=gamename%>
+            </a>
+            <i class="footer2016__vl"></i>
+            <div class="footer2016__left">
+                <div class="footer2016-nav">
+                    <ul class="footer2016-nav__list">
+                        <li class="footer2016-nav__item">
+                            <a href="/">
+                                <%=site.website['Home_Page']%>
+                            </a>
+                            <i></i>
+                        </li>
+                        <li class="footer2016-nav__item">
+                            <a href="/rules">
+                                <%=site.website['Game_Guide']%>
+                            </a>
+                            <i></i>
+                        </li>
+                        <li class="footer2016-nav__item">
+                            <a href="/privacy-policy">
+                                <%=site.website['Confidentiality_Agreement']%>
+                            </a>
+                            <i></i>
+                        </li>
+                        <li class="footer2016-nav__item">
+                            <a href="/cookie-policy">
+                                <%=site.website['Cookie_Policy']%>
+                            </a>
+                            <i></i>
+                        </li>
+
+                    </ul>
+                </div>
+                <p class="footer2016__copyright">Copyright © 2021-2022 <a href="https://<%=gamelink%>.com/" target="_blank">www.<%=gamelink%>.com
+                    </a>
+                </p>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/animate.js"></script>
+        <script src="../js/login30f4.js"></script>
+        <script src="../js/page.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" type="text/javascript"></script>
+        <script src="../js/app.js"></script>
+</body>
+
+</html>
