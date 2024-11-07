@@ -2,6 +2,8 @@
 
 Bu projede, kullanıcıların oyun oynayabileceği bir **web sitesi** geliştirilmiştir. Site, **Node.js** ile yazılmıştır ve **Express** web çerçevesi kullanılarak backend işlemleri yapılmaktadır. Ayrıca, kullanıcı etkileşimi için temel ön yüz teknolojileri (HTML, CSS, JavaScript) ve bir oyun mantığı implementasyonu bulunmaktadır.
 
+![Photo](https://i.ibb.co/XsTwFb7/Screenshot-4.png)
+
 ## Proje Özeti
 
 Bu web sitesi, **multiplayer (çok oyunculu)** oyunlar sunmak amacıyla oluşturulmuş bir platformdur. Kullanıcılar sisteme kaydolabilir, oyun oynayabilir ve skorlarını takip edebilirler.
